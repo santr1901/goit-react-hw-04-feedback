@@ -1,0 +1,29 @@
+.option_list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.list_item {
+  margin-left: 5px;
+}
+
+.item_btn {
+  width: 70px;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.item_btn:hover {
+  background-color: whitesmoke;
+  transform: scale(1.1);
+}
+
+.item_btn:active {
+  transform: translate(0em, 0.2em);
+}
+.item_btn:active::before {
+  box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+  transform: translate3d(0, 0, -1em);
+}
