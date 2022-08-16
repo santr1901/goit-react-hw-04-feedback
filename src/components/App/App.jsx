@@ -13,10 +13,10 @@ const App = () => {
   const leaveGoodFeedback = () => {
     setGood(prevState => prevState + 1);
   };
-  const leaveNeutralFeedback = optionName => {
+  const leaveNeutralFeedback = () => {
     setNeutral(prevState => prevState + 1);
   };
-  const leaveBadFeedback = optionName => {
+  const leaveBadFeedback = () => {
     setBad(prevState => prevState + 1);
   };
 
